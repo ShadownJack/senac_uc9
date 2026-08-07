@@ -1,0 +1,87 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: #f2f2f2;
+    color: #111;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 10px;
+    overflow: hidden;
+    background: #ff3434;
+    border-bottom: 2px solid #cfcfcf;
+}
+
+header h1 { display: none; }
+
+main {
+    width: 605px;
+    min-height: calc(100vh - 10px);
+    margin: 0 auto;
+    padding: 22px 70px 25px;
+    background: #fff;
+}
+
+section {
+    margin: 7px 0;
+    padding: 7px 12px;
+    border-radius: 9px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .18);
+}
+
+section:first-child {
+    margin: 0 0 12px;
+    padding: 0;
+    text-align: center;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+section:first-child img {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+section:first-child h2 { margin: 5px 0 6px; font-size: 17px; }
+section:first-child h3 { margin: 0; color: #777; font-size: 11px; font-weight: normal; }
+
+hr {
+    margin: 6px 0 0;
+    border: 0;
+    border-top: 1px solid #d2d2d2;
+}
+
+section h3 {
+    margin: -2px -7px 7px;
+    padding: 6px 7px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+section p { margin: 2px 0; font-size: 8px; line-height: 1.25; }
+section ul { margin: 4px 0 0; padding-left: 22px; font-size: 8px; line-height: 1.45; }
+
+section:nth-child(2) { background: #a8f5e8; }
+section:nth-child(2) h3 { color: #001eff; background: #54e7eb; }
+
+section:nth-child(3) { background: #ecffb5; }
+section:nth-child(3) h3 { color: #667400; background: #d6e833; }
+
+section:nth-child(4) { background: #ffd0b7; border: 2px solid #079cf3; }
+section:nth-child(4) h3 { color: #ff3d2e; background: #ffad8c; }
+
+section:nth-child(5) { background: #a3f4c6; border: 2px solid #777; border-radius: 0; }
+section:nth-child(5) h3 { color: #00764b; background: #00ed8b; }
+
+section:nth-child(6) { color: #fff; background: #d73588; }
+section:nth-child(6) h3 { color: #a4005b; background: #f58dde; }
+section:nth-child(6) b { color: #0078ff; }
+
+@media (max-width: 620px) {
+    main { width: 100%; padding: 22px 20px 25px; }
+}

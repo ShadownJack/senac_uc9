@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --cor-principal: #3C2415; 
+    --cor-secundaria: #ff934f;
+    --cor-preta: #000000;
+    --cor-branca: #FFFFFF;
+
+    --cor-secundaria-transparente: rgba(255, 147, 79, 0.73);
+    --fonte-principal: 'Aclonica', sans-serif;
+    --fonte-secundaria: 'Lato', sans-serif;
+}
+
+.principal{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cor-secundaria);
+    margin: 0;
+}
+
+header{
+    background-color: var(--cor-principal);
+}
+
+.menu-superior{
+    display: flex;
+    gap: 32px;
+    color: var(--cor-branca);
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+}
+a{
+    color: var(--cor-branca);
+}
+

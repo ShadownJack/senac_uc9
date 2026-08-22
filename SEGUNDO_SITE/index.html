@@ -1,30 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/estilos.css">
-    
     <title>Code & Coffee</title>
-    
 </head>
+
 <body>
     <div class="principal">
 
+        <!-- Cabeçalho da página -->
         <header>
-            <nav>
-                <img src="./assets/logotipo.png" alt="logotipo do site">
+            <nav class="nav-superior">
+                <a href="index.html" title="Voltar para a tela principal">
+                    <img src="./assets/logotipo.png" />
+                </a>
                 <ul class="menu-superior">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a class="menu-superior__link" href="index.html" title="Voltar para a tela principal">Home</a></li>
+                    <li><a class="menu-superior__link" href="#">Sobre nós</a></li>
+                    <li><a class="menu-superior__link" href="galeria.html">Galeria</a></li>
+                    <li><a class="menu-superior__link" href="#">Contato &copy;</a></li>
                 </ul>
             </nav>
         </header>
+        <!-- Conteúdo da página -->
+        <main>
+            <section class="banner">
+                <div class="banner__card">
+                    <h2>Seu código sem bugs</h2>
+                    <h1>Seu café sem igual!</h1>
+                </div>
+            </section>
+            <section class="conteudo-principal">
+                <h1 class="conteudo-principal__titulo">Conheça</h1>
+                <ul>
+                    <li>
+                        <article class="conteudo-principal__produto">
+                            <img class="conteudo-principal__imagem" src="./assets/capuccino_caseiro.jpg" />
+                            <div class="conteudo-principal__info">
+                                <h2 class="conteudo-principal__subtitulo">Capuccino Caseiro</h2>
+                                <p class="conteudo-principal__descricao">
+                                    Uma combinação cremosa e reconfortante de
+                                    café, leite e um toque de canela, perfeita
+                                    para recarregar as energias e compilar
+                                    seu código sem nenhum bug.
+                                </p>
+                                <h3 class="conteudo-principal__lista-titulo">Ingredientes principais:</h3>
+                                <ul class="conteudo-principal__lista-itens">
+                                    <li>Café solúvel</li>
+                                    <li>Leite em pó</li>
+                                    <li>Canela em pó</li>
+                                </ul>
+                                <a class="botao" href="#">Saiba mais</a>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="conteudo-principal__produto">
+                            <img class="conteudo-principal__imagem" src="./assets/mocaccino_latte.jpg" />
+                            <div class="conteudo-principal__info">
+                                <h2 class="conteudo-principal__subtitulo">Mocaccino latte</h2>
+                                <p class="conteudo-principal__descricao">
+                                    O equilíbrio perfeito entre a
+                                    intensidade do café expresso e a
+                                    doçura aveludada da calda de
+                                    chocolate — a pausa ideal entre
+                                    uma compilação e outra.
+                                </p>
+                                <h3 class="conteudo-principal__lista-titulo">Ingredientes principais:</h3>
+                                <ul class="conteudo-principal__lista-itens">
+                                    <li>Café expresso</li>
+                                    <li>Calda ou pedaços de chocolate</li>
+                                    <li>Leite integral vaporizado</li>
+                                </ul>
+                                <a class="botao" href="#">Saiba mais</a>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
 
+                <h1 class="conteudo-principal__titulo">O que os clientes estão dizendo</h1>
+                <p class="conteudo-principal__descricao" style="text-align: center;">
+                    Atribuímos um grande valor a relacionamentos sólidos
+                    e vimos os benefícios que eles trazem para o
+                    nosso negócio. O feedback do cliente é vital
+                    para nos ajudar a acertar.
+                </p>
+                <ul class="conteudo-principal__comentarios">
+                    <li>
+                        <article class="card-avaliacao">
+                            <img class="card-avaliacao__perfil" src="./assets/client3.jpg" />
+                            <blockquote class="card-avaliacao__comentario">
+                                "Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Porro doloribus officia
+                                minima neque repudiandae impedit adipisci
+                                molestiae, sint ullam corrupti."
+                            </blockquote>
+                            <cite>— Neyde Silva, Dev Front-End</cite>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card-avaliacao">
+                            <img class="card-avaliacao__perfil" src="./assets/client2.jpg" />
+                            <blockquote class="card-avaliacao__comentario">
+                                "Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Porro doloribus officia
+                                minima neque repudiandae impedit adipisci
+                                molestiae, sint ullam corrupti."
+                            </blockquote>
+                            <cite>— Mayara Gomes, Quality Assurance</cite>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card-avaliacao">
+                            <img class="card-avaliacao__perfil" src="./assets/client1.jpg" />
+                            <blockquote class="card-avaliacao__comentario">
+                                "Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Porro doloribus officia
+                                minima neque repudiandae impedit adipisci
+                                molestiae, sint ullam corrupti."
+                            </blockquote>
+                            <cite>— Pedro Santos, Desenvolvedor</cite>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- Rodapé da página -->
+        <footer class="rodape">
+            <div class="rodape__conteudo">
+                <h2>Copyright &copy; 2026 - Todos os direitos reservados - CODE & COFFEE</h2>
+                <h2>Desenvolvimento - BahSoft</h2>
+            </div>
+        </footer>
 
     </div>
 </body>
+
 </html>

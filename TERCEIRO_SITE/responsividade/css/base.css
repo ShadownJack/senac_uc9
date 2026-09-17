@@ -1,0 +1,28 @@
+@import url('reset.css');
+@import url('banner.css');
+@import url('cabecalho.css');
+@import url('conheca.css');
+@import url('depoimentos.css');
+@import url('rodape.css');
+@import url('principal.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --fonte-principal: 'Aclonica', 'Sans Serif';
+    --fonte-texto: 'Lato', 'Sans Serif';
+
+    --cor-branco: #fff;
+    --cor-marrom-escuro: #3C2415;
+    --cor-laranja: #FF934F;
+    --cor-laranja-transparente: #ff924fbb;
+    --cor-cinza: #E9E6E6;
+    --cor-preto: #000;
+    --cor-preto-transparente: #00000044;
+
+}
+
+body {
+    background-color: var(--cor-marrom-escuro);
+    font-family: var(--fonte-texto);
+}
